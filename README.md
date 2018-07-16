@@ -16,3 +16,7 @@ Or
 [plugin.metrics.aws-s3-size]
 command = "/home/ec2-user/golang/go-learning-mackerel-plugin-aws-s3-size --bucket your-bucket1 --key key-path-under-bucket1 -bucket your-bucket2 --key key-path-under-bucket2 --region your-region"
 ```
+
+## Requirements
+
+* To S3 Access, require AWS Credential or EC2 Role
